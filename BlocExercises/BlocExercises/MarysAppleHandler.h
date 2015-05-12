@@ -41,9 +41,6 @@
  @code
  NSUInteger cost = [handler dollarCostForAppleFlavoredVodka];
  @endcode
- 
- @param dollars
- The most amount of money that Mary is able and willing to spend, in dollars
 
  @return @c 24 if @c getsDiscount is set to @c NO; otherwise @c 18.
  */
