@@ -20,7 +20,7 @@
     
     NSString *noCheese;
     
-    if (cheeseRange.location != 9223372036854775807) {
+    if (cheeseRange.location != NSNotFound) {
         noCheese = [cheeseName substringToIndex: cheeseRange.location];
     } else {
         noCheese = cheeseName;
